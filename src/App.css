@@ -7,6 +7,11 @@
   text-align: center;
 }
 
+.App {
+  width: 90%;
+  margin: auto;
+}
+
 .Header {
   color: indigo;
   font-size: 30px;
