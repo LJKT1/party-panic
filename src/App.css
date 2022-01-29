@@ -72,8 +72,8 @@ li {
 .btn-sm {
   font-size: 20px;
   padding: 7px, 14px;
-  border-radius: 50%;
   border: 1px solid gray;
   margin: 7px;
   background-color: rgb(189, 163, 167);
+  border-radius: 10%;
 }
