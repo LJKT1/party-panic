@@ -60,17 +60,6 @@ const ResponseList = () => {
                 onClick={() => {
                   setResponses((currResponses) => {
                     const newResponses = [...currResponses];
-                    return newResponses.splice(index, 1);
-                  });
-                }}
-              >
-                😊
-              </button>
-              <button
-                className="btn-sm"
-                onClick={() => {
-                  setResponses((currResponses) => {
-                    const newResponses = [...currResponses];
                     const spliced = newResponses.splice(index, 1);
                     newResponses.unshift(
                       spliced,
