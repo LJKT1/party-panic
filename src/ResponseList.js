@@ -38,46 +38,48 @@ const ResponseList = () => {
       <button className="btn btn-danger" onClick={refreshPage}>
         U-Turn!
       </button>
-      <ul>
+      <table>
         {responses.map((response, index) => {
           return (
-            <li key={index}>
-              {response}
-              <button
-                className="btn-sm"
-                onClick={() => {
-                  setResponses((currResponses) => {
-                    const newResponses = [...currResponses];
-                    newResponses.splice(index, 1);
-                    return newResponses;
-                  });
-                }}
-              >
-                🤦
-              </button>
-              <button
-                className="btn-sm"
-                onClick={() => {
-                  setResponses((currResponses) => {
-                    const newResponses = [...currResponses];
-                    const spliced = newResponses.splice(index, 1);
-                    newResponses.unshift(
-                      spliced,
-                      spliced,
-                      spliced,
-                      spliced,
-                      spliced
-                    );
-                    return newResponses;
-                  });
-                }}
-              >
-                😍
-              </button>
-            </li>
+            <tr key={index}>
+              <td className="response-cells">{response}</td>
+              <td className="emoji-cells">
+                <button
+                  className="btn-sm"
+                  onClick={() => {
+                    setResponses((currResponses) => {
+                      const newResponses = [...currResponses];
+                      newResponses.splice(index, 1);
+                      return newResponses;
+                    });
+                  }}
+                >
+                  🤦
+                </button>
+                <button
+                  className="btn-sm"
+                  onClick={() => {
+                    setResponses((currResponses) => {
+                      const newResponses = [...currResponses];
+                      const spliced = newResponses.splice(index, 1);
+                      newResponses.unshift(
+                        spliced,
+                        spliced,
+                        spliced,
+                        spliced,
+                        spliced
+                      );
+                      return newResponses;
+                    });
+                  }}
+                >
+                  😍
+                </button>
+              </td>
+            </tr>
           );
         })}
-      </ul>
+      </table>
     </>
   );
 };

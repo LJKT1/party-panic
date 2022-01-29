@@ -11,10 +11,10 @@ const answers = [
     id: 9,
     answer: "Lots of people break the law in small ways",
   },
-  { id: 10, answer: "... ambushed with a cake" },
+  { id: 10, answer: "... ambushed with a cake!" },
   {
     id: 12,
-    answer: "... the most successful vaccination programme in the world",
+    answer: "... most successful vaccination programme in the world",
   },
   { id: 13, answer: "All guidance was followed completely" },
   { id: 14, answer: "I do not recognise the reports of parties" },

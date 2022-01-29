@@ -14,19 +14,17 @@
   background-image: none;
 }
 
-ul {
-  list-style-type: none;
+table {
+  width: 100%;
 }
 
-li {
-  font-size: 16px;
-  text-align: center;
+.emoji-cells {
+  white-space: nowrap;
+  width: 25%;
 }
-.main-content {
-  width: 50%;
-  background-image: none;
-  margin: auto;
-  align-self: center;
+
+.response-cells {
+  width: 75%;
 }
 
 .btn {
