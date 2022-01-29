@@ -5,14 +5,13 @@ const answers = [
   { id: 4, answer: "The garden is an extension of the office" },
   { id: 5, answer: "I wasn’t invited and I didn’t attend" },
   { id: 6, answer: "Nobody warned me it was against the rules" },
-  { id: 7, answer: "He implicitly thought it was a work event" },
+  { id: 7, answer: "It was a work event" },
   { id: 8, answer: "We need to wait for the report" },
   {
     id: 9,
     answer: "Lots of people break the law in small ways",
   },
-  { id: 10, answer: "He was ambushed with a cake" },
-
+  { id: 10, answer: "... ambushed with a cake" },
   {
     id: 12,
     answer: "... the most successful vaccination programme in the world",
@@ -24,6 +23,10 @@ const answers = [
     answer: "I have been repeatedly assured that there was no party",
   },
   { id: 16, answer: "He was there for less than ten minutes" },
+  { id: 17, answer: "We're building 40 new hospitals" },
+  { id: 18, answer: "I certainly broke no rules" },
+  { id: 19, answer: "I humbly apologise for misjudgments that were made" },
+  { id: 20, answer: "I welcome the Met's decision" },
 ];
 
 export default answers;
