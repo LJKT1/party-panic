@@ -73,7 +73,7 @@ const ResponseList = () => {
                     });
                   }}
                 >
-                  😍
+                  👍
                 </button>
               </td>
             </tr>
