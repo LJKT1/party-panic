@@ -32,7 +32,6 @@ table {
   margin: 10px;
 }
 .btn {
-  padding: 15px 32px;
   border-radius: 10%;
   margin: 10px;
   background-image: none;
@@ -42,7 +41,7 @@ table {
   background-color: #4caf50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -53,7 +52,7 @@ table {
   background-color: rgb(255, 160, 0);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -64,7 +63,7 @@ table {
   background-color: #f44336;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
