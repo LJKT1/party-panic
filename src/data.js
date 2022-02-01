@@ -6,7 +6,7 @@ const answers = [
   { id: 5, answer: "I wasn’t invited and I didn’t attend" },
   { id: 6, answer: "Nobody warned me it was against the rules" },
   { id: 7, answer: "It was a work event" },
-  { id: 8, answer: "We need to wait for the report" },
+  { id: 8, answer: "We need to wait for the results of the inquiry" },
   {
     id: 9,
     answer: "Lots of people break the law in small ways",
@@ -29,7 +29,8 @@ const answers = [
   { id: 19, answer: "I humbly apologise for misjudgments that were made" },
   {
     id: 20,
-    answer: "I welcome the Met's decision to conduct its own investigation",
+    answer:
+      "The police are independent and must be allowed to get on with the inquiry",
   },
   { id: 21, answer: "This government got the big things right" },
   {
@@ -40,6 +41,14 @@ const answers = [
   {
     id: 23,
     answer: "He's not robbed a bank",
+  },
+  {
+    id: 24,
+    answer: "The prime minister tells the truth",
+  },
+  {
+    id: 25,
+    answer: "Conservative MPs overwhelmingly support Boris Johnson",
   },
 ];
 
