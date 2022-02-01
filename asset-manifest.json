@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/party-panic/static/css/main.d8e64890.css",
-    "main.js": "/party-panic/static/js/main.8a320770.js",
+    "main.js": "/party-panic/static/js/main.8354f9f4.js",
     "index.html": "/party-panic/index.html",
     "main.d8e64890.css.map": "/party-panic/static/css/main.d8e64890.css.map",
-    "main.8a320770.js.map": "/party-panic/static/js/main.8a320770.js.map"
+    "main.8354f9f4.js.map": "/party-panic/static/js/main.8354f9f4.js.map"
   },
   "entrypoints": [
     "static/css/main.d8e64890.css",
-    "static/js/main.8a320770.js"
+    "static/js/main.8354f9f4.js"
   ]
 }
